@@ -1,0 +1,122 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unfear | Calm in heart - Strong in mind</title>
+    <meta name="description" content="UNFEAR - Awake Accept Arise">
+    <meta name="keywords" content="HTML5 template, responsive, Bootstrap 4, premium, template">
+    <meta name="author" content="_nK">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- START: Styles -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7cNunito+Sans:400,400i,700" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <script defer src="assets/vendor/fontawesome-free/js/all.js"></script>
+    <script defer src="assets/vendor/fontawesome-free/js/v4-shims.js"></script>
+    <!-- IonIcons -->
+    <link rel="stylesheet" href="assets/vendor/ionicons/dist/css/ionicons.min.css">
+
+    <!-- Photoswipe -->
+    <link rel="stylesheet" href="assets/vendor/photoswipe/dist/photoswipe.css">
+    <link rel="stylesheet" href="assets/vendor/photoswipe/dist/default-skin/default-skin.css">
+
+   <!-- Flickity -->
+    <link rel="stylesheet" href="assets/vendor/flickity/dist/flickity.min.css">
+
+    <!-- Khaki -->
+    <link rel="stylesheet" href="assets/css/unfear.css">
+
+    <!-- END: Styles -->
+
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+</head>
+
+
+<body>
+<header class="nk-header">
+    <nav class="nk-navbar nk-navbar-top nk-navbar-sticky nk-navbar-autohide nk-navbar-blur shadow">
+        <div class="container-fluid">
+            <div class="nk-nav-table">
+                <a href="/" class="nk-nav-logo pl-20">
+                    <img src="assets/img/sygnet-white@1x.png" alt="" width="60">
+                </a>
+                <ul class="nk-nav nk-nav-right d-none d-lg-table-cell" data-nav-mobile="#nk-nav-mobile">
+        <li>
+          <a href="/">
+                Unfear
+            </a>
+        </li>
+        <li>
+          <a href="/why-rtt.php">
+                Why RTT
+            </a>
+        </li>
+        <li>
+            <a href="/how-it-works.php">
+                How it works
+            </a>
+        </li>
+        <li>
+          <a href="/stories.php">
+                Success stories
+            </a>
+        </li>
+        <li>
+          <a href="/about-me.php">
+                About Me
+            </a>
+        </li>
+        <li>
+            <a href="/contact.php" class="text-warning">
+                Book a session
+            </a>
+        </li>
+        <li>
+            <a href="/blog-posts.php">
+                Blog
+            </a>
+        </li>
+                </ul>
+
+                <ul class="nk-nav nk-nav-right nk-nav-icons">
+                        <li class="single-icon d-lg-none">
+                            <a href="#" class="no-link-effect" data-nav-toggle="#nk-nav-mobile">
+                                <span class="nk-icon-burger">
+                                    <span class="nk-t-1"></span>
+                                    <span class="nk-t-2"></span>
+                                    <span class="nk-t-3"></span>
+                                </span>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Navbar -->
+</header>
+
+<div id="nk-nav-mobile" class="nk-navbar nk-navbar-side nk-navbar-left-side nk-navbar-overlay-content nk-navbar-blur d-lg-none">
+    <div class="nano">
+        <div class="nano-content">
+            <div class="nk-nav-table">
+                <div class="nk-nav-row">
+                    <a href="/" class="nk-nav-logo">
+                        <img src="assets/img/sygnet-white@1x.png" alt="" width="70">
+                    </a>
+                </div>
+                <div class="nk-nav-row nk-nav-row-full nk-nav-row-top">
+                    <div class="nk-navbar-mobile-content">
+                        <ul class="nk-nav">
+                            <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
