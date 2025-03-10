@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,12 +31,6 @@
     <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
     <!-- END: Styles -->
   </head>
-  <meta property="og:type" content="article">
-  <meta property='og:title' content='Self-sabotage - what’s behind the venomous snake that hinders your success?' />
-  <meta property='og:image' content='//unfear.com/assets/img/self-sabotage-sm.jpg' />
-  <meta property='og:description' content=' ' />
-  <meta property='og:url' content='//unfear.com/blog-posts/self-sabotage.html' />
-</head>
 
 
 <body>
@@ -359,12 +352,7 @@
               <p>
                 Awake. Accept. Arise. </p>
             </div>
-            <?php
-        $cmtx_identifier = '8';
-        $cmtx_reference  = 'self-sabotage';
-        $cmtx_folder     = '/commentics/upload/';
-        require($_SERVER['DOCUMENT_ROOT'] . $cmtx_folder . '../frontend/index.php');
-        ?>
+
 
           </div>
 
@@ -384,12 +372,62 @@
                 <div class="nk-blockquote-author">Friedrich Wilhelm Nietzsche <br /><small>German Philosopher</small></div>
               </blockquote>
               <div class="nk-gap-4"></div>
-              <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/subscribe-box.html"; include_once($path);?>
+              <div class="nk-image-box-3 nk-no-effect">
+                <img src="/assets/img/cave-sm.jpg" data-from="1.1" alt="">
+                <div class="nk-image-box-overlay nk-image-box-bottom">
+                  <div class="subscribe">
+                    <h3 class="nk-image-box-title h1">Psychology evolves</h3>
+                    <p>Explore the latest findings and firsthand therapy insights that can help you or somebody you care about overcome negativity, fear, and a sense of powerlessness to win back the joyful life.</p>
+                    <div class="text-left">
+                      <form action="/assets/send-sub.html" method="post" role="form" class="php-email-form nk-form nk-form-style-1 validate">
+                        <div class="input-group">
+                          <input type="number" value="" name="phone" class="phone form-control text-white" placeholder="Phone Number *">
+                            <input type="email" value="" name="email" class="required email form-control text-white" placeholder="Email *">
+                            <button class="nk-btn nk-btn-color-white text-dark-1" type="submit">Subscribe</button>
+                        </div>
+                        <div class="mb-3">
+                          <div class="loading">Loading</div>
+                          <div class="error-message"></div>
+                          <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                      </form>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
 
               <div class="nk-gap-4"></div>
-              <?php $path = $_SERVER['DOCUMENT_ROOT']; $path .= "/includes/sidebar-posts.html"; include_once($path);?>
+              <div class="nk-widget">
+                <h4 class="nk-widget-title">Recent Posts</h4>
+                <div>
+              
+                  <div class="nk-post-meta-date">March 1, 2021</div>
+              
+                  <h3 class="nk-post-title"><a href="/blog-posts/burnout-life-after.html">Life after burnout. Is leaving the best option?</a></h3>
+              
+                  <div class="nk-post-meta-date">February 22, 2021</div>
+                  <h3 class="nk-post-title"><a href="/blog-posts/burnout-distinctive-predictor.html">The most distinctive predictor of burnout that most employee engagement surveys completely ignore.</a></h3>
+              
+                  <div class="nk-post-meta-date">February 9, 2021</div>
+                  <h3 class="nk-post-title"><a href="/blog-posts/burnout-sloppy-outsourcing.html">Burnout. A quick and simple way to turn sloppy outsourcing into effective HR practice.</a></h3>
+              
+                  <div class="nk-post-meta-date">January 26, 2021</div>
+                  <h3 class="nk-post-title"><a href="/blog-posts/burnout-work-trigger.html">Burnout – your work is just the trigger, not a root cause.</a></h3>
+              
+                  <div class="nk-post-meta-date">January 12, 2021</div>
+                  <h3 class="nk-post-title"><a href="/blog-posts/breaking-spell.html">Breaking the spell.</a></h3>
+              
+                  <div class="nk-post-meta-date">December 29, 2020</div>
+                  <h3 class="nk-post-title"><a href="/blog-posts/love-but-not-your-thoughts.html">You may give them your love but not your thoughts.</a></h3>
+              
+                  <div class="nk-post-meta-date">December 16, 2020</div>
+                  <h3 class="nk-post-title"><a href="/blog-posts/day-you-were-born.html">The day you were born.</a></h3>
+                </div>
+              </div>
+              
 
             </aside>
             <!-- END: Sidebar -->
